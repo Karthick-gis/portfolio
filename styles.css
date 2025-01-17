@@ -1,0 +1,192 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #ffffff;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    color: #f57c00;
+    margin-top: 20px;
+}
+
+p {
+    margin: 15px 20px;
+    font-size: 1.1rem;
+}
+
+.section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #f57c00;
+    border-radius: 10px;
+    background-color: #fff3e0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #f57c00;
+    padding: 10px 20px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Button Container Styles */
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px;
+}
+
+.button {
+    padding: 10px 15px;
+    background-color: #f57c00;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button:hover {
+    background-color: #ff9800;
+    transform: scale(1.1);
+}
+
+/* Back Button Styles */
+.back-button {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    background-color: #f57c00;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #ff9800;
+    transform: scale(1.1);
+}
+
+/* Magnifier Effect */
+.section:hover {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+    transition: all 0.3s ease;
+}
+
+/* Page-Specific Styles */
+/* Home Page */
+.home {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.home h2 {
+    font-size: 2rem;
+    color: #f57c00;
+}
+
+.home p {
+    font-size: 1.2rem;
+}
+
+/* About Page */
+.about {
+    padding: 40px 20px;
+}
+
+/* Skills Page */
+.skills {
+    padding: 40px 20px;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    margin: 10px 0;
+    font-size: 1.1rem;
+}
+
+/* Experience Page */
+.experience {
+    padding: 40px 20px;
+}
+
+.experience h3 {
+    color: #f57c00;
+    margin-top: 20px;
+}
+
+/* Contact Page */
+.contact {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.contact form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button {
+    padding: 10px 20px;
+    background-color: #f57c00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.contact button:hover {
+    background-color: #ff9800;
+    transform: scale(1.1);
+}
