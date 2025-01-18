@@ -190,9 +190,4 @@ p {
     background-color: #ff9800;
     transform: scale(1.1);
 }
-/* Background Image*/
-.custom-background {
-    background-image: url('LAND.jpg');
-    background-size: cover;
-    background-position: center;
-}
+
