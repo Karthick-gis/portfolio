@@ -192,7 +192,7 @@ p {
 }
 /* Background image */
 .custom-background {
-    background-image: url('path/to/image.jpg');
+    background-image: url('LAND.jpg');
     background-size: cover;
     background-position: center;
 }
